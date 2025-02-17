@@ -1,0 +1,59 @@
+/* Basic Reset and Body Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header, main, footer {
+    width: 80%; /* Adjust as needed */
+    max-width: 960px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff; /* White content area */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow */
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Input Section Styles */
+#input-section input[type="number"] {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#input-section button {
+    padding: 10px 20px;
+    background-color: #8f6737; /* Coffee brown */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Animation Section Styles */
+#animation-section {
+    display: flex;
+    justify-content: space-around; /* Distribute cup and bean animations */
+    align-items: center; /* Vertically center them */
+}
+
+#cup-animation, #bean-animation {
+    width: 150px; /* Adjust size */
+    height: 150px; /* Adjust size */
+    /* Styling for cup and bean visuals (images or SVGs) */
+    /*  We'll handle actual animation in CSS or JavaScript */
+}
+
+/* Output Section Styles */
+#output-section {
+    font-size: 1.2em;
+    font-weight: bold;
+}
